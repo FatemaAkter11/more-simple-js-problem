@@ -20,15 +20,14 @@ function removeDuplicate(names) {
 const uniqueNames = removeDuplicate(names);
 //console.log(uniqueNames); 
 
+
+
 //Remove duplicate number
+
 const numbers = [1, 4, 6, 7, 9, 4, 8, 9, 7, 1, 2, 34, 78];
 
 function removeDuplicate(numbers) {
     const unique = [];
-    /* for (let i = 0; i < names.length; i++) {
-        const element = names[i];
-        console.log(element);
-    } */
     for (const element of numbers) {
         console.log(element);
         if (unique.indexOf(element) == -1) {
